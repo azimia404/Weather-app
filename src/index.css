@@ -1,8 +1,34 @@
-body {
+:root {
+  --font: "Inter", sans-serif;
+  --background: #D69E36;
+  --accent: #D2982D;
+  --accent-1: #DEA02E;
+  --accent-2: #F5B747;
+  --black: #2B261D;
+  --white: #FFFFFF;
+  --grey: #403B45;
+  /*!*WTF WHY THESE COLORS WERE NOT IN THE WIREFRAME???*!
+  --accent-3: #E0A12E;
+  --accent-4: #D2982D;
+  --accent-5: #FFC355;*/
+}
+
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  list-style: none;
+  font-family: var(--font);
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--background);
+}
+
+body {
+  padding: 2rem 2.625rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +37,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Celsius:after {
+  content: "°C";
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
