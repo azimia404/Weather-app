@@ -1,28 +1,29 @@
-Weather App Readme
+# Weather App Readme
 Welcome to our Weather App! This readme file will provide you with all the necessary information to understand, use, and contribute to our app's effectively.
 
-Overview:
+## Overview:
 Weather App inspired by Shadezie's design
 
-Features:
+## Features:
 *Weather: The main part of the app is that you can easily track the weather in your area!
 
 *Language: Change the language of the app anytime you want!
 
 *Adapptive: The app is designed to work seamlessly across all devices, including desktops, tablets, and mobile phones, ensuring a consistent user experience!
 
-Usage:
+## Usage:
 Using Weather App is simple:
 
 Clone repository
 
 Write in console line by line:
-
+```
 npm install react-scripts --save-dev
 npm start
 To learn more about npm, follow down the README
+```
 
-Contributing:
+## Contributing:
 We welcome contributions to our Weather App! If you're interested in contributing, here's how you can get started:
 
 Bug Reports: If you encounter any bugs or issues while using the app, please report them by opening an issue on our GitHub repository.
@@ -31,10 +32,10 @@ Feature Requests: Have an idea for a new feature or enhancement? Let us know by 
 
 Code Contributions: If you're a developer and would like to contribute code to the project, feel free to fork our repository, make your changes, and submit a pull request. Please ensure your code follows our coding standards and includes appropriate documentation.
 
-Support:
+## Support:
 If you need any assistance or have questions about using our Weather App, don't hesitate to contact us. You can reach out to our support team at [support@email.com].
 
-Thank you for using our Weather App! We hope you find it useful and enjoyable
+# Thank you for using our Weather App! We hope you find it useful and enjoyable
 
 
 # Getting Started with Create React App
